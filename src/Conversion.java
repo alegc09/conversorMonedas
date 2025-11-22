@@ -1,4 +1,4 @@
-public record Conversion(String DivisaE,String DivisaS, int Monto) {
+public record Conversion(String base_code,String target_code, float conversion_result,float Monto) {
 
 }
 
